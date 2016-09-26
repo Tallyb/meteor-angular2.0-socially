@@ -8,14 +8,12 @@ import { InjectUser } from 'angular2-meteor-accounts-ui';
 
 import { Parties } from '../../../both/collections/parties.collection';
 import { Party } from '../../../both/interfaces/party.interface';
-import { DisplayNamePipe } from '../shared/display-name.pipe';
 
 import template from './party-details.component.html';
 
 @Component({
   selector: 'party-details',
-  template,
-  pipes: [DisplayNamePipe]
+  template
 })
 @InjectUser('user')
 export class PartyDetailsComponent extends MeteorComponent implements OnInit {

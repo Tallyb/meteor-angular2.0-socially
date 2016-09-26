@@ -60,12 +60,12 @@ mobile-experience@1.0.4
 mobile-status-bar@1.0.12
 modules@0.7.6
 modules-runtime@0.7.6
-mongo@1.1.11
+mongo@1.1.12
 mongo-id@1.0.5
 mys:accounts-phone@0.0.21
 mys:fonts@0.0.2
 npm-bcrypt@0.9.0
-npm-mongo@1.5.46
+npm-mongo@1.5.48
 observe-sequence@1.0.12
 ordered-dict@1.0.8
 practicalmeteor:chai@2.1.0_1

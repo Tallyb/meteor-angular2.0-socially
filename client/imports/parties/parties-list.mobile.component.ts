@@ -2,16 +2,12 @@ import { Component } from '@angular/core';
 import { PaginationService, PaginationControlsCmp } from 'ng2-pagination';
 
 import { PartiesList } from './parties-list.class';
-import { RsvpPipe } from '../shared/rsvp.pipe';
-import { DisplayMainImagePipe } from '../shared/display-main-image.pipe';
 
 import template from './parties-list.mobile.component.html';
 
 @Component({
   template,
-  providers: [PaginationService],
-  directives: [PaginationControlsCmp],
-  pipes: [RsvpPipe, DisplayMainImagePipe]
+  providers: [PaginationService]
 })
 export class PartiesListComponent extends PartiesList {
   constructor(paginationService: PaginationService) {

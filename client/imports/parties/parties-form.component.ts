@@ -9,8 +9,7 @@ import template from './parties-form.component.html';
 
 @Component({
   selector: 'parties-form',
-  template,
-  directives: [PartiesUpload]
+  template
 })
 export class PartiesFormComponent implements OnInit {
   addForm: FormGroup;

@@ -1,5 +1,4 @@
 import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
-import { FileDropDirective } from 'angular2-file-drop';
 import { MeteorComponent } from 'angular2-meteor';
 import { ReactiveVar } from 'meteor/reactive-var';
 import { Mongo } from 'meteor/mongo';
@@ -12,8 +11,7 @@ import template from './parties-upload.component.html';
 
 @Component({
   selector: 'parties-upload',
-  template,
-  directives: [ FileDropDirective ]
+  template
 })
 export class PartiesUpload extends MeteorComponent implements OnInit {
   fileIsOver: boolean = false;
